@@ -7,6 +7,7 @@ import './App.css';
 import React, { useState } from 'react';
 import About from './components/About';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
             {/* <Route path='dashboard' element={<Dashboard/>}></Route> */}
       
       </Routes>
-     
+      <Footer/>
     </div>
   );
 }
